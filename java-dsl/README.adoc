@@ -1,0 +1,8 @@
+= Java TestDsl with Sample Usage
+
+== Spotlight
+
+Check out:
+
+* link:src/test/java/de/richargh/sampleusage/app/RentingServiceTest.java[]
+
