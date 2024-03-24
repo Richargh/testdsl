@@ -1,2 +1,13 @@
 = TestDsl
 
+[quote, Kent Beck, 'link:https://medium.com/@kentbeck_7670/programmer-test-principles-d01c064d7934[Programmer Test Principles]']
+____
+Programmer tests should be sensitive to behavior changes and insensitive to structure changes. If the program’s behavior is stable from an observer’s perspective, no tests should change.
+____
+
+When you have a lot of tests that are sensitive to structure (they go red when you change the structure) they are  structure-cementing tests. 
+
+You can combat structure-cementing tests with a TestDsl. This repository contains TestDsl examples in:
+
+* link:java-dsl[], a simple example where everything is in the same module
+
